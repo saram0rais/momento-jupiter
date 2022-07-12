@@ -1,0 +1,305 @@
+/*HOME*/
+@font-face {
+    font-family: Hugo;
+    src: url('/src/assets/fonts/Hugo.otf')
+}
+
+@font-face {
+    font-family: Sora;
+    src: url('/src/assets/fonts/Sora-Light.ttf');
+}
+
+@font-face {
+    font-family: Bold;
+    src: url('/src/assets/fonts/Sora-Bold.ttf');
+}
+
+.tit {
+    font-family: Sora;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 100;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    position: absolute;
+    font-family: Hugo;
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+    font-size: 125px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding-top: 100px;
+}
+
+/*CARD 1*/
+.card1 {
+    background-image: url('/imagens/card1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 3%;
+    position: absolute;
+    width: 452px;
+    height: 274px;
+    left: 268px;
+    top: 1384px;
+
+    font-family: Sora;
+    src: url('/src/assets/fonts/Sora-Light.ttf');
+}
+
+.card1:hover {
+    top: 1370px;
+    -webkit-transition-duration: 1s; 
+}
+
+/* TEXTOS CARD 1*/
+@font-face {
+    font-family: Sora-Bold;
+    src: url('/src/assets/fonts/Sora-Bold.ttf');
+}
+
+.text1 {
+    position: absolute;
+    width: 405px;
+    height: 114px;
+    left: 249px;
+    top: 1697px;
+
+    font-family: Sora-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.lorem1 {
+
+    font-family: 'Sora';
+    color: #FFFFFF;
+    position: absolute;
+    width: 390px;
+    height: 112px;
+    left: 299px;
+    top: 1811px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/*CARD 2*/
+
+.card2 {
+    background-image: url('https://github.com/saram0rais/momento-jupiter/blob/main/main/img/Card2.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 452px;
+    height: 274px;
+    left: 848px;
+    top: 1444px;
+    border-radius: 3%;
+}
+
+.card2:hover {
+    top: 1430px;
+    -webkit-transition-duration: 1s; 
+}
+
+.text2 {
+    position: absolute;
+    width: 405px;
+    height: 114px;
+    left: 848px;
+    top: 1749px;
+
+    font-family: 'Sora-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.lorem2 {
+    position: absolute;
+    width: 390px;
+    height: 112px;
+    left: 898px;
+    top: 1863px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+/*CARD 3 */
+.card3 {
+    background-image: url('/imagens/card3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    border-radius: 3%;
+    width: 440px;
+    height: 247.5px;
+    left: 898px;
+    top: 2105px;
+    z-index: 4;
+}
+
+ .card3:hover {
+    top: 2085px;
+    -webkit-transition-duration: 1s; 
+ }
+
+.text3 {
+    position: absolute;
+    width: 405px;
+    height: 114px;
+    left: 915px;
+    top: 2375px;
+
+    font-family: 'Sora-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+    z-index: 4;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.lorem3 {
+    position: absolute;
+    width: 390px;
+    height: 112px;
+    left: 965px;
+    top: 2485px;
+    z-index: 4;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+/*BACKGROUND*/
+.back {
+    background-color: black;
+    background-image: url('/imagens/new-back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+}
+
+.aurora {
+    background-image: url('/imagens/stars.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 400vh;
+    top: 300px;
+    right: 0;
+    position: relative;
+    z-index: -2;
+}
+
+.buraco-negro {
+    background-image: url('https://github.com/saram0rais/momento-jupiter/blob/main/main/img/buraconegro.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    top: 2005px;
+    z-index: 3;
+    position: absolute;
+}
+
+.imgsaturn {
+    display: flex;
+    width: 746px;
+    height: 707px;
+    position: relative;
+    float: left;
+}
+
+.block {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus {
+    position: absolute;
+    width: 336px;
+    height: 76px;
+    display: flex;
+
+    font-family: 'Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.sobre {
+    position: absolute;
+    display: flex;
+    width: 602px;
+    height: 370px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+

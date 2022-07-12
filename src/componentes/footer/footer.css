@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Sora;
+    src: url('/src/assets/fonts/Sora-Light.ttf');
+}
+
+@font-face {
+    font-family: Sora-Bold;
+    src: url('/src/assets/fonts/Sora-Bold.ttf');
+}
+
+* {
+    margin: 0px;
+  }
+
+  .block {
+        background-color: #171616;
+        width: 100vw;
+        height: 400px;
+        display: flex; 
+        gap: 100px;
+  }
+
+  .block1 {
+       height: 100px;
+       width: 240px;
+       position: relative;
+       float: left;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       margin-left: 50px;
+  }
+
+  .block h1{
+    color: white;
+    margin-bottom: 15px;
+    font-family: "Sora-Bold";
+  }
+
+  .block p {
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Sora";
+  }
+
+  .block2 {
+       height: 100px;
+       width: 200px;
+       position: relative;
+       float: left;
+       font-style: color white; 
+  }
+
+  .block3 {
+       height: 100px;
+       width: 200px;
+       position: relative;
+       float: left;
+  }
+
+  .block4 {
+       height: 100px;
+       width: 200px;
+       position: relative;
+       float: left;
+  }
+
+  .content {
+    display: flex;
+    width: 100vw;
+    gap: 170px;
+    margin-top: 50px;
+  }
+
+  .icons_footer {
+     position: relative;
+     float: left;
+     height: 100px;
+     width: 200px;
+  }
+
+  .clients {
+     align-items: center;
+     flex-direction: column;
+     display: flex;
+     margin-bottom: 100px;
+ }
+ 
+ .icons {
+     display: flex;
+     align-items: center;
+     margin-top: 40px;
+ }
+ 
+ .clients h1 {
+     font-family: 'Bold';
+     width: 363px;
+     height: 52px;
+ 
+     font-style: normal;
+     font-weight: 700;
+     font-size: 45px;
+     line-height: 57px;
+     text-align: center;
+     margin-bottom: 8px;
+ 
+     color: #FFFFFF;
+ }
+ 
+ .clients p {
+     width: 303px;
+     height: 20px;
+ 
+     font-family:'Sora';
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 23px;
+     text-align: center;
+     
+     color: #E9E0E0;
+ }
+ 
+ .tesla {
+     width: 71px;
+     height: 71px;
+ }
+ 
+ .nasa {
+     width: 85px;
+     height: 25px;
+     margin-left: 170px;
+     margin-right: 170px;
+ }
+ 
+ .spacex {
+     width: 64px;
+     height: 64px;
+ }

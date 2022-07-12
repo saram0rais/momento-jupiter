@@ -1,0 +1,125 @@
+.menu-inicial {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.title {
+position: absolute;
+width: 104px;
+height: 24px;
+left: 106px;
+top: 30px;
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 2500;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.logo-jupiter {
+    background-size: 100% 100%;
+    width: 37px;
+    height: 37px;
+    margin-left: 70px;
+    position: flex;
+}
+
+.logoimg {
+    width: 37px;
+    height: 37px;
+}
+
+.title2 {
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 90px;
+
+    max-width: 950px;
+    margin: 0 auto;
+    width: 80%;
+    margin-right: 210px;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 20;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.about:hover {
+    font-weight: 25;
+    font-size: 20px;
+    -webkit-transition-duration: 0.5s;
+}
+
+.howitwork:hover {
+    font-weight: 25;
+    font-size: 20px;
+    -webkit-transition-duration: 0.5s;
+}
+
+.joinus:hover {
+    font-weight: 25;
+    font-size: 20px;
+    -webkit-transition-duration: 0.5s;
+}
+
+.security:hover {
+    font-weight: 25;
+    font-size: 20px;
+    -webkit-transition-duration: 0.5s;
+}
+
+.contact:hover {
+    font-weight: 25;
+    font-size: 20px;
+    -webkit-transition-duration: 0.5s;
+}
+
+.sng:hover {
+    font-weight: 25;
+    font-size: 20px;
+    -webkit-transition-duration: 0.5s;
+}
+
+.sng { 
+    text-decoration-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    border: 0px;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0);;
+    color: white;
+}
+
+.borda {
+    width: 130px;
+    height: 40px;
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 3px;
+    background-color:rgb(255, 255, 255) 0;
+}
